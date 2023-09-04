@@ -9,6 +9,7 @@ export const MoviesListStyled = styled.ul`
   li {
     &:hover {
       scale: 1.1;
+      transition: all 0.5s ease-out;
     }
   }
   img {
